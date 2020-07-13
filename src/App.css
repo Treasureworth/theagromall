@@ -1,0 +1,79 @@
+
+.logo {
+  width: 5em;
+  pointer-events: none;
+}
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  background-color: white;
+}
+.table-head{
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #808080;
+
+}
+.align-vertical-middle{
+  display: flex;
+  align-items: center;
+}
+.farmer-list{
+  cursor: pointer;
+}
+.farmer-list:hover{
+  color: #40a31c;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  font-weight: 600;
+  border-left: 3px solid #f7c22d!important;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.img-circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+h4 {
+  color: #808080;
+  font-size: 1em;
+}
+
+p{
+  margin-bottom: 0.5em;
+}
+
+.custom-badge{
+  border-radius: 10px;
+  background-color: #40a31c;
+  font-size: 0.8em;
+  padding: 5px 10px;
+  color: white;
+
+}
+
+.custom-header{
+  font-size: 1.2em;
+  font-weight: 600;
+  border-left: 3px solid #40a31c!important;
+  padding-left: 5px;
+  margin-bottom: 20px;
+}
+
+.zoom{
+  cursor: zoom-in;
+}
+
+.close{
+  color: #40a31c !important;
+  font-size: 1.2em !important;
+  font-weight: 400;
+}
+
+.pagination{
+  margin-top: 30px !important;
+}

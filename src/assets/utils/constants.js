@@ -1,0 +1,1 @@
+export const requestUrl = "https://theagromall.com/api/v2/get-sample-farmers?limit="
